@@ -1,0 +1,6 @@
+project: rnshah9/winnowmap
+target: winnowmap
+
+cmds:
+  - cmd: /repo/bin/winnowmap /repo/MT-human.fa @@
+    filepath: /test.fa
