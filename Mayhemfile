@@ -3,3 +3,4 @@ target: winnowmap
 
 cmds:
   - cmd: /winnowmap /repo/MT-human.fa @@
+    filepath: /test.fa
