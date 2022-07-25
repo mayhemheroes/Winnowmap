@@ -11,3 +11,5 @@ FROM ubuntu:20.04 as package
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libgomp1
 COPY --from=builder /repo/bin/winnowmap /
+COPY --from=builder /repo/MT-human.fa /repo/MT-human.fa
+
