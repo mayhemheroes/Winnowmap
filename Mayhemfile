@@ -2,5 +2,4 @@ project: winnowmap
 target: winnowmap
 
 cmds:
-  - cmd: /repo/bin/winnowmap /repo/MT-human.fa /test.fa
-    filepath: /test.fa
+  - cmd: /winnowmap /repo/MT-human.fa @@
